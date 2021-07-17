@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-17T22:44:45.418Z" agent="5.0 (Windows)" etag="_2phyg17BJXizChs7ZDt" version="14.9.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-07-17T22:50:00.641Z" agent="5.0 (Windows)" etag="bzO9v1TmzajRtvCY5jvR" version="14.9.0" type="github" pages="6">
   <diagram id="Y5a2vj_OQzmGsMsnUOmU" name="Say hello">
     <mxGraphModel dx="1422" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -392,7 +392,7 @@
           <mxGeometry x="320" y="469.5" width="120" height="115" as="geometry" />
         </mxCell>
         <mxCell id="MurAKtP-yv-ubWCSLw-o-31" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="MurAKtP-yv-ubWCSLw-o-1">
-          <mxGeometry x="630" y="497" width="100" height="60" as="geometry" />
+          <mxGeometry x="590" y="497" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MurAKtP-yv-ubWCSLw-o-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;" edge="1" parent="MurAKtP-yv-ubWCSLw-o-1" source="MurAKtP-yv-ubWCSLw-o-33" target="MurAKtP-yv-ubWCSLw-o-35">
           <mxGeometry relative="1" as="geometry" />
@@ -438,6 +438,9 @@
         </mxCell>
         <mxCell id="MurAKtP-yv-ubWCSLw-o-48" value="Increment line counter" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="MurAKtP-yv-ubWCSLw-o-1">
           <mxGeometry x="430" y="630" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MurAKtP-yv-ubWCSLw-o-51" value="&lt;div&gt;let lineCounter&lt;span&gt;    &lt;/span&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;    &lt;/span&gt; = 1;&lt;/div&gt;&lt;div&gt;while (lineCounter &amp;lt;= 10) {&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; let starCounter = 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; let line = &#39;&#39;;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; while (starCounter &amp;lt; lineCounter) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; line = line + &#39;*&#39;;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;starCounter &lt;/span&gt;&lt;/span&gt;= &lt;/span&gt;&lt;span&gt;starCounter + 1;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; console.log(line);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; lineCounter = lineCounter + 1;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Courier New;" vertex="1" parent="MurAKtP-yv-ubWCSLw-o-1">
+          <mxGeometry x="620" y="195" width="290" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
